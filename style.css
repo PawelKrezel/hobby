@@ -74,17 +74,22 @@ footer.autor:hover
 {
 	font-size: 24px;
 }
-footer.ozdoba
+.ozdoba
 {
+	transition-duration: 0.9s;
 	width: 150px;
 	height: 150px;
 	background-color: #7F7F22
 }
-footer.lewa_ozdoba
+.ozdoba:hover
+{
+	border-radius: 64px;
+}
+.lewa_ozdoba
 {
 	float: left;
 }
-footer.prawa_ozdoba
+.prawa_ozdoba
 {
 	float: right;
 }
@@ -94,6 +99,7 @@ footer.prawa_ozdoba
 	display: table;
 	clear: both;	
 }
+
 @media screen and (max-width: 900px)
 {
 	.panel
@@ -106,4 +112,3 @@ footer.prawa_ozdoba
 		height: 75%;
 	}
 }
-
