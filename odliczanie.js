@@ -1,4 +1,4 @@
-var odliczanie = new Date("Oct 29, 2017 00:00:00").getTime();
+var odliczanie = new Date("Oct 29, 2017 00:05:00").getTime();
 
 
 var x = setInterval(function() {
